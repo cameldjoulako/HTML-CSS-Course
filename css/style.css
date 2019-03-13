@@ -1,0 +1,200 @@
+/* 
+	CSS course
+	By Camel Djoulako -- Homedeve
+ */
+
+h1{
+	color: green;
+}
+ p{
+ 	text-align:justify;
+ 	font-family:"Open Sans",Arial;
+ 	font-size:1.2rem;
+ }
+
+ h2{
+ 	color: blue;
+ }
+
+ /* 
+	les selecteurs
+  */
+ 
+ *{
+
+}
+
+ 
+div div p{
+	font-size: 1em;
+	font-family:cursive;
+
+}
+
+
+/*class selector*/
+.definition{
+	font-weight:bold;
+	color: maroon;
+	text-align:justify;
+}
+
+.titre-principal{
+	font-family:"Open Sans";
+	font-size: 2.5rem;
+	font-weight: bold;
+
+}
+
+.align-center{
+	text-align:center;
+}	
+
+
+/* Selecteur d'attributs */
+
+#cour1{
+	text-align: justify;
+}
+
+
+ul li{
+	list-style-type: none;
+
+}
+
+
+/*pseudo class*/
+ul li a:hover{
+	color:black;
+	font-size: 1.5rem;
+}
+
+ul li a:link{
+	color:red;
+}
+
+ul li a:visited{
+	color:yellow;
+}
+
+h2:hover{
+	background-color: green;
+	color:white;
+}
+
+div h4:first-child{
+	color:green;
+}
+
+div h4:last-child{
+	color:yellow;
+	font-size: 1.5rem;
+	background: red
+}
+
+/*
+Display 
+ */
+.display-inline{
+	background: orange;
+	display: inline-block;
+	width: 10rem;
+	height:10rem;
+}
+
+/* Box model */
+
+div#box1{
+	background-color: skyblue;
+	width: 30rem;
+	text-align: justify;
+	margin: 50px;
+	padding: 1rem;
+	border: solid 0.5rem green;
+	border-radius:1rem;
+
+}
+
+div#box2{
+	background-color: purple;
+	width: 30rem;
+	text-align: justify;
+	margin: 50px;
+	padding: 1rem;
+	border: solid 0.5rem grey;
+	border-radius:1rem;
+
+}
+
+/*Float property*/
+
+div.left{
+	background-color: black;
+	width: 10rem;
+	height:10rem;
+	float:left;
+
+}
+
+div.right{
+	background-color: red;
+	width:10rem;
+	height:10rem;
+	float:right;
+
+}
+
+header{
+	background-color: orange;
+	clear:both;
+	
+}
+
+
+footer{
+	background-color: green;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	height:1.5rem;
+	clear:both;
+}
+
+
+/* position property */
+
+div.left2{
+	background-color: skyblue;
+	width: 15rem;
+	height:35rem;
+	position: relative;
+	top:-15px;
+	left: 150px;
+	right: ;
+	bottom: ;
+
+}
+
+div.right2{
+	background-color: purple;
+	width:15rem;
+	height:10rem;
+	position:relative;
+
+	top: -500px;
+	left: 10rem;
+
+
+}
+
+#author{
+	font-size: 1.6em;
+	color: orange;
+	font-weight:bold ;
+	position: fixed;
+	top:0px;
+	right:0rem;
+	margin: 0;
+}
+
